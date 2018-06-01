@@ -1,0 +1,280 @@
+
+
+.div-one{
+    height: 800px;
+    width: 980px;
+    border: 1px solid gray;
+    position: relative;
+    background: linear-gradient(to top,  gray, deepskyblue);
+}
+
+.div-1{
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    bottom: 100px;
+    left: 230px;
+    background-color: red;
+    border-radius: 50px 60px 15px 15px;
+}
+
+.div-2{
+    height: 90px;
+    width: 335px;
+    position: absolute;
+    bottom: 200px;
+    left: 295px;
+    border: 15px solid red;
+    border-radius: 120px 160px 0px 0px;
+    background-color: black;
+}
+
+.div-3 {
+    height: 30px;
+    width:400px;
+    position: absolute;
+    bottom: 190px;
+    left: 282px;
+    background-color: red;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.div-4{
+    height: 100px;
+    width: 15px;
+    position: absolute;
+    left: 90px;
+    background-color: red;
+}
+.div-5{
+    height: 100px;
+    width: 15px;
+    position: absolute;
+    left: 220px;
+    background-color: red;
+}
+
+.div-6 {
+    height: 50px;
+    width: 50px;
+    border: 30px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60px;
+    left: 300px;
+    background-color: gray;
+}
+.div-7 {
+    height: 50px;
+    width: 50px;
+    border: 30px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60px;
+    left: 570px;
+    background-color: gray;
+}
+
+@keyframes running {
+    0% {background-color: black; right: 0px;}
+    50% {background-color: gray; right: 100px;}
+    100% {background-color: black; right: 0px;}
+}
+
+.div-8{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes running1 {
+    0% {background-color: gray; right: 100px;}
+    50% {background-color: black; right: 200px;}
+    100% {background-color: gray; right: 100px;}
+}
+
+.div-9{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes running2 {
+    0% {background-color: black; right: 200px;}
+    50% {background-color: gray; right: 300px;}
+    100% {background-color: black; right: 200px;}
+}
+
+.div-10{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes running3 {
+    0% {background-color: gray; right: 300px;}
+    50% {background-color: black; right: 400px;}
+    100% {background-color: gray; right: 300px;}
+}
+
+.div-11{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes running4 {
+    0% {background-color: black; right: 400px;}
+    50% {background-color: gray; right: 500px;}
+    100% {background-color: black; right: 400px;}
+}
+
+.div-12{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes running5 {
+    0% {background-color: gray; right: 500px;}
+    50% {background-color: black; right: 600px;}
+    100% {background-color: gray; right: 500px;}
+}
+
+.div-13{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running5;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes running6 {
+    0% {background-color: black; right: 600px;}
+    50% {background-color: gray; right: 700px;}
+    100% {background-color: black; right: 600px;}
+}
+
+.div-14{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running6;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes running7 {
+    0% {background-color: gray; right: 700px;}
+    50% {background-color: black; right: 800px;}
+    100% {background-color: gray; right: 700px;}
+}
+
+.div-15{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running6;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes running8 {
+    0% {background-color: black; right: 800px;}
+    50% {background-color: gray; right: 900px;}
+    100% {background-color: black; right: 800px;}
+}
+
+.div-16{
+    height: 65px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation-name: running8;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes running9 {
+    0% {background-color:black;}
+    25% {background-color:gray;}
+    50% {background-color:black;}
+    75% {background-color:gray;}
+    100% {background-color:black;}
+}
+
+.div-17{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+    animation-name: running9;
+    animation-duration: 0.10s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+
+}
+
+@keyframes running10 {
+    0% {background-color:black;}
+    25% {background-color:gray;}
+    50% {background-color:black;}
+    75% {background-color:gray;}
+    100% {background-color:black;}
+}
+
+.div-18{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+    animation-name: running10;
+    animation-duration: 0.10s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+
+}
+
+
+
+

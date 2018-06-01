@@ -1,0 +1,295 @@
+.container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.div-one {
+    width: 100%;
+    background: linear-gradient(#101237, black);
+    height: 800px;
+    position: relative
+
+}
+
+.moon{
+    height: 180px;
+    width: 220px;
+    border: 15px solid silver;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+@keyframes star {
+    0% {height:10px; width:10px; color: silver;}
+    50% {height:11px; width:11px; color: lightyellow;}
+    100% {height:9px; width:9px; color: silver}
+
+}
+.star-one {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: star;
+    animation-iteration-count: infinite;
+    animation-duration:0.5s;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+}
+
+@keyframes star2 {
+    0% {height:10px; width:10px; color: silver;}
+    50% {height:11px; width:11px; color: lightyellow;}
+    100% {height:9px; width:9px; color: silver}
+
+}
+.star-two {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: star2;
+    animation-iteration-count: infinite;
+    animation-duration:0.5s;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+
+}
+
+@keyframes star3 {
+    0% {height:8px; width:8px; color: silver;}
+    50% {height:9px; width:9px; color: lightyellow;}
+    100% {height:7px; width:7px; color: silver}
+
+}
+.star-three {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: star3;
+    animation-iteration-count: infinite;
+    animation-duration:0.5s;
+    position: absolute;
+    right: 300px;
+    top: 300px;
+
+}
+
+@keyframes star4 {
+    0% {height:8px; width:8px; color: silver;}
+    50% {height:9px; width:9px; color: lightyellow;}
+    100% {height:7px; width:7px; color: silver}
+
+}
+.star-four {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: star4;
+    animation-iteration-count: infinite;
+    animation-duration:0.5s;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+
+}
+
+@keyframes star5 {
+    0% {height:8px; width:8px; color: silver;}
+    50% {height:9px; width:9px; color: lightyellow;}
+    100% {height:7px; width:7px; color: silver}
+
+}
+.star-five {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: star5;
+    animation-iteration-count: infinite;
+    animation-duration:0.5s;
+    position: absolute;
+    left: 360px;
+    top: 100px;
+
+}
+
+@keyframes star6 {
+    0% {height:8px; width:8px; color: silver;}
+    50% {height:9px; width:9px; color: lightyellow;}
+    100% {height:7px; width:7px; color: silver}
+
+}
+.star-six {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: star6;
+    animation-iteration-count: infinite;
+    animation-duration:0.5s;
+    position: absolute;
+    left: 390px;
+    top: 480px;
+
+}
+
+.star-seven {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+    top: 380px;
+
+}
+
+.star-eight {
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 370px;
+    top: 320px;
+
+}
+
+.star-nine {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 490px;
+    top: 420px;
+
+}
+.star-ten {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 190px;
+    top: 320px;
+
+}
+.star-eleven {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 490px;
+    top: 140px;
+
+}
+
+.star-twelve {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+
+}
+.star-13 {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+    top: 250px;
+
+}
+
+.star-14 {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 300px;
+    top: 380px;
+
+}
+
+.star-15 {
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 370px;
+    top: 320px;
+
+}
+
+.star-16 {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 490px;
+    top: 420px;
+
+}
+.star-17 {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 190px;
+    top: 320px;
+
+}
+.star-18 {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 490px;
+    top: 140px;
+
+}
+
+.star-19 {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 200px;
+    top: 250px;
+
+}
+.star-20 {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 150px;
+    top: 250px;
+
+}
